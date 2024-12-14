@@ -1,0 +1,5 @@
+cd node_modules
+ln -s ../build patoka
+
+# cd build
+# ln -s ../build build

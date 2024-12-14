@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./run_control_client send_ready
