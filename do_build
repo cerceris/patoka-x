@@ -1,5 +1,10 @@
 #!/bin/bash
 
-set -eux
+set -ux
 
+npm i
+cd node_modules
+ln -s ../build patoka
+cd ..
+npm run build
 npm run build

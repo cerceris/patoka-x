@@ -1,4 +1,4 @@
-import * as zmq from 'zeromq';
+import * as zmq from 'zeromq/v5-compat';
 
 import { Consts } from './consts';
 import { Globals } from './globals';

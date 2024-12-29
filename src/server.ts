@@ -1,6 +1,6 @@
 /// Test server.
 
-import * as zmq from 'zeromq';
+import * as zmq from 'zeromq/v5-compat';
 
 let frontend = zmq.socket('router');
 

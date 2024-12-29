@@ -43,7 +43,7 @@ export class HbpTaskContext extends TaskContext {
     async postExec() {
         this.logger.info('POST-EXEC');
 
-        if (this.params.exec.hold_page === false) {
+        if (!this.params?.exec?.hold_page) {
             await this.session.releasePage(
                 this.taskUuid,
                 this.releaseSharedPage

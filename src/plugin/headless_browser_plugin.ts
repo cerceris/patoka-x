@@ -29,6 +29,7 @@ let init = async (params) => {
     }
 
     browserParams.push('--ignore-certificate-errors');
+    browserParams.push('--no-sandbox');
 
     Logger.debug("[BROWSER PARAMS] " + browserParams);
 
